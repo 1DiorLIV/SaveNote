@@ -366,19 +366,19 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5); /* Giữ background mờ */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
 }
 .modal-content {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
+  background: #fff; /* Nền trắng đơn giản */
+  backdrop-filter: none; /* Bỏ Glassmorphism */
+  border-radius: 8px; /* Giảm độ cong */
   padding: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Shadow đơn giản hơn */
+  border: 1px solid #ccc; /* Border đơn giản */
   color: #333;
   text-align: center;
 }
@@ -389,9 +389,37 @@ button {
   margin-top: 20px;
 }
 
-.note-content .text-content {
-  white-space: pre-wrap;
-  word-break: break-word;
+/* Các nút bấm chung: Điều chỉnh lại để đơn giản hơn */
+.save-button, .cancel-button {
+  padding: 7px 20px;
+  font-size: 14px;
+  border-radius: 5px; /* Giảm độ cong */
+  min-width: 72px;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Box shadow đơn giản hơn */
+  border: 1px solid; /* Thêm border để trông rõ ràng hơn */
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.save-button {
+  background-color: #4CAF50; /* Màu xanh lá cây đơn giản */
+  color: white;
+  border-color: #4CAF50;
+}
+.save-button:hover {
+  background-color: #45a049;
+  transform: none; /* Bỏ hiệu ứng translateY */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.cancel-button {
+  background-color: #f44336; /* Màu đỏ đơn giản */
+  color: white;
+  border-color: #f44336;
+}
+.cancel-button:hover {
+  background-color: #da190b;
+  transform: none; /* Bỏ hiệu ứng translateY */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .note-item.selected-multi {
