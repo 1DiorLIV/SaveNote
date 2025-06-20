@@ -1,0 +1,122 @@
+{
+  "appName": {
+    "message": "NoteSAVE",
+    "description": "Tên ứng dụng"
+  },
+  "saveImageContextMenu": {
+    "message": "Lưu ghi chú (ảnh)",
+    "description": "Tiêu đề menu ngữ cảnh để lưu ảnh"
+  },
+  "saveImageOption": {
+    "message": "Lưu ảnh",
+    "description": "Tùy chọn menu ngữ cảnh để lưu ảnh"
+  },
+  "imageSaveSuccess": {
+    "message": "Đã lưu ảnh!",
+    "description": "Thông báo toast khi lưu ảnh thành công"
+  },
+  "savedNotes": {
+    "message": "📝 Ghi chú đã lưu",
+    "description": "Tiêu đề phần ghi chú đã lưu"
+  },
+  "createNoteButton": {
+    "message": "Tạo ghi chú",
+    "description": "Nút tạo ghi chú mới"
+  },
+  "exportJsonButton": {
+    "message": "Xuất JSON",
+    "description": "Nút xuất ghi chú ra JSON"
+  },
+  "importJsonButton": {
+    "message": "Nhập JSON",
+    "description": "Nút nhập ghi chú từ JSON"
+  },
+  "newNotePlaceholder": {
+    "message": "Nhập ghi chú mới của bạn vào đây...",
+    "description": "Chữ mờ cho ô nhập ghi chú mới"
+  },
+  "saveButton": {
+    "message": "Lưu",
+    "description": "Nút lưu"
+  },
+  "cancelButton": {
+    "message": "Hủy",
+    "description": "Nút hủy"
+  },
+  "textTab": {
+    "message": "Văn bản",
+    "description": "Tiêu đề tab ghi chú văn bản"
+  },
+  "imageTab": {
+    "message": "Ảnh",
+    "description": "Tiêu đề tab ghi chú ảnh"
+  },
+  "deleteButton": {
+    "message": "Xóa",
+    "description": "Nút xóa"
+  },
+  "deleteConfirm": {
+    "message": "Bạn có chắc chắn muốn xóa ghi chú này không?",
+    "description": "Tin nhắn xác nhận xóa một ghi chú"
+  },
+  "copyButton": {
+    "message": "Sao chép",
+    "description": "Nút sao chép"
+  },
+  "editButton": {
+    "message": "Chỉnh sửa",
+    "description": "Nút chỉnh sửa"
+  },
+  "deleteSuccess": {
+    "message": "Đã xóa thành công!",
+    "description": "Thông báo xóa thành công"
+  },
+  "copySuccess": {
+    "message": "Đã sao chép!",
+    "description": "Thông báo sao chép thành công một ghi chú"
+  },
+  "copyMultiSuccess": {
+    "message": "Đã sao chép {num} ghi chú!",
+    "description": "Thông báo sao chép thành công nhiều ghi chú"
+  },
+  "noTextToCopy": {
+    "message": "Không có văn bản để sao chép.",
+    "description": "Thông báo khi không có văn bản để sao chép"
+  },
+  "saveSuccess": {
+    "message": "Đã lưu thành công!",
+    "description": "Thông báo lưu thành công"
+  },
+  "createSuccess": {
+    "message": "Đã tạo ghi chú!",
+    "description": "Thông báo tạo ghi chú mới thành công"
+  },
+  "jsonExportNoNotes": {
+    "message": "Không có ghi chú để xuất.",
+    "description": "Thông báo khi không có ghi chú để xuất JSON"
+  },
+  "jsonImportInvalidFile": {
+    "message": "Định dạng tệp JSON không hợp lệ",
+    "description": "Thông báo lỗi khi tệp JSON nhập không hợp lệ"
+  },
+  "importChoiceTitle": {
+    "message": "Bạn muốn thêm hay thay thế nội dung?",
+    "description": "Câu hỏi lựa chọn khi nhập JSON"
+  },
+  "addButton": {
+    "message": "Thêm",
+    "description": "Nút thêm trong modal lựa chọn nhập"
+  },
+  "replaceButton": {
+    "message": "Thay thế",
+    "description": "Nút thay thế trong modal lựa chọn nhập"
+  },
+  "jsonImportAddSuccess": {
+    "message": "Đã thêm ghi chú thành công!",
+    "description": "Thông báo thêm ghi chú đã nhập thành công"
+  },
+  "jsonImportReplaceSuccess": {
+    "message": "Đã thay thế ghi chú thành công!",
+    "description": "Thông báo thay thế ghi chú bằng ghi chú đã nhập thành công"
+  }
+}

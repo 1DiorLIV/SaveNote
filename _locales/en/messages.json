@@ -1,0 +1,122 @@
+{
+  "appName": {
+    "message": "NoteSAVE",
+    "description": "Name of the application"
+  },
+  "saveImageContextMenu": {
+    "message": "Save Note (Image)",
+    "description": "Context menu title for saving an image"
+  },
+  "saveImageOption": {
+    "message": "Save Image",
+    "description": "Context menu option to save an image"
+  },
+  "imageSaveSuccess": {
+    "message": "Image saved!",
+    "description": "Toast message for successful image save"
+  },
+  "savedNotes": {
+    "message": "📝 Saved Notes",
+    "description": "Heading for saved notes section"
+  },
+  "createNoteButton": {
+    "message": "Create Note",
+    "description": "Button to create a new note"
+  },
+  "exportJsonButton": {
+    "message": "Export JSON",
+    "description": "Button to export notes as JSON"
+  },
+  "importJsonButton": {
+    "message": "Import JSON",
+    "description": "Button to import notes from JSON"
+  },
+  "newNotePlaceholder": {
+    "message": "Enter your new note here...",
+    "description": "Placeholder for new note textarea"
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "cancelButton": {
+    "message": "Cancel",
+    "description": "Cancel button text"
+  },
+  "textTab": {
+    "message": "Text",
+    "description": "Text notes tab title"
+  },
+  "imageTab": {
+    "message": "Image",
+    "description": "Image notes tab title"
+  },
+  "deleteButton": {
+    "message": "Delete",
+    "description": "Delete button text"
+  },
+  "deleteConfirm": {
+    "message": "Are you sure you want to delete this note?",
+    "description": "Confirmation message for deleting a single note"
+  },
+  "copyButton": {
+    "message": "Copy",
+    "description": "Copy button text"
+  },
+  "editButton": {
+    "message": "Edit",
+    "description": "Edit button text"
+  },
+  "deleteSuccess": {
+    "message": "Deleted successfully!",
+    "description": "Success message for deletion"
+  },
+  "copySuccess": {
+    "message": "Copied!",
+    "description": "Success message for single copy"
+  },
+  "copyMultiSuccess": {
+    "message": "Copied {num} notes!",
+    "description": "Success message for multi-copy"
+  },
+  "noTextToCopy": {
+    "message": "No text to copy.",
+    "description": "Message when there is no text to copy"
+  },
+  "saveSuccess": {
+    "message": "Saved successfully!",
+    "description": "Success message for saving"
+  },
+  "createSuccess": {
+    "message": "Note created!",
+    "description": "Success message for creating a new note"
+  },
+  "jsonExportNoNotes": {
+    "message": "No notes to export.",
+    "description": "Message when trying to export JSON with no notes"
+  },
+  "jsonImportInvalidFile": {
+    "message": "Invalid JSON file format",
+    "description": "Error message for invalid JSON import file"
+  },
+  "importChoiceTitle": {
+    "message": "Do you want to add or replace content?",
+    "description": "Question for import choice"
+  },
+  "addButton": {
+    "message": "Add",
+    "description": "Add button text in import choice modal"
+  },
+  "replaceButton": {
+    "message": "Replace",
+    "description": "Replace button text in import choice modal"
+  },
+  "jsonImportAddSuccess": {
+    "message": "Notes added successfully!",
+    "description": "Success message for adding imported notes"
+  },
+  "jsonImportReplaceSuccess": {
+    "message": "Notes replaced successfully!",
+    "description": "Success message for replacing notes with imported notes"
+  }
+}
